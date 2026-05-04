@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="420" viewBox="0 0 980 420">
+  <rect width="980" height="420" fill="#f8fafc"/>
+  <text x="40" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">MVP: minimum cost serverless launch</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#334155"/>
+    </marker>
+  </defs>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#0f172a">
+    <rect x="50" y="150" width="140" height="70" rx="14" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="120" y="180" text-anchor="middle" font-weight="700">Users</text>
+    <text x="120" y="203" text-anchor="middle">Browser</text>
+    <rect x="260" y="140" width="180" height="90" rx="14" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="350" y="173" text-anchor="middle" font-weight="700">Frontend</text>
+    <text x="350" y="197" text-anchor="middle">Firebase Hosting</text>
+    <rect x="510" y="140" width="180" height="90" rx="14" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+    <text x="600" y="173" text-anchor="middle" font-weight="700">Backend API</text>
+    <text x="600" y="197" text-anchor="middle">Cloud Run min=0</text>
+    <rect x="760" y="80" width="170" height="75" rx="14" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+    <text x="845" y="112" text-anchor="middle" font-weight="700">AI API</text>
+    <text x="845" y="134" text-anchor="middle">external/model</text>
+    <rect x="760" y="185" width="170" height="75" rx="14" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+    <text x="845" y="217" text-anchor="middle" font-weight="700">Firestore</text>
+    <text x="845" y="239" text-anchor="middle">small tier</text>
+    <rect x="760" y="290" width="170" height="75" rx="14" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+    <text x="845" y="322" text-anchor="middle" font-weight="700">Cloud Storage</text>
+    <text x="845" y="344" text-anchor="middle">files/media</text>
+  </g>
+  <g stroke="#334155" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <path d="M190 185 L255 185"/>
+    <path d="M440 185 L505 185"/>
+    <path d="M690 170 L755 122"/>
+    <path d="M690 190 L755 222"/>
+    <path d="M690 208 L755 326"/>
+  </g>
+</svg>

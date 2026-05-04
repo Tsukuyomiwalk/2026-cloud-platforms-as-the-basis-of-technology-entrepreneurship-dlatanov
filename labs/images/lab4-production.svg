@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="500" viewBox="0 0 1120 500">
+  <rect width="1120" height="500" fill="#f8fafc"/>
+  <text x="40" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">Production: scalable and protected AI application</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#334155"/>
+    </marker>
+  </defs>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#0f172a">
+    <rect x="40" y="185" width="130" height="75" rx="14" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="105" y="217" text-anchor="middle" font-weight="700">Users</text>
+    <text x="105" y="240" text-anchor="middle">internet</text>
+    <rect x="230" y="170" width="170" height="105" rx="14" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+    <text x="315" y="202" text-anchor="middle" font-weight="700">Protection</text>
+    <text x="315" y="226" text-anchor="middle">Load Balancer</text>
+    <text x="315" y="250" text-anchor="middle">Cloud Armor</text>
+    <rect x="460" y="95" width="170" height="85" rx="14" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="545" y="128" text-anchor="middle" font-weight="700">Frontend</text>
+    <text x="545" y="151" text-anchor="middle">static hosting</text>
+    <rect x="460" y="220" width="170" height="85" rx="14" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+    <text x="545" y="253" text-anchor="middle" font-weight="700">API Services</text>
+    <text x="545" y="276" text-anchor="middle">Cloud Run</text>
+    <rect x="690" y="145" width="160" height="80" rx="14" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+    <text x="770" y="178" text-anchor="middle" font-weight="700">AI Workers</text>
+    <text x="770" y="201" text-anchor="middle">async jobs</text>
+    <rect x="690" y="260" width="160" height="80" rx="14" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+    <text x="770" y="293" text-anchor="middle" font-weight="700">Pub/Sub</text>
+    <text x="770" y="316" text-anchor="middle">retries</text>
+    <rect x="910" y="110" width="160" height="80" rx="14" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+    <text x="990" y="143" text-anchor="middle" font-weight="700">Managed DB</text>
+    <text x="990" y="166" text-anchor="middle">HA/backups</text>
+    <rect x="910" y="230" width="160" height="80" rx="14" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+    <text x="990" y="263" text-anchor="middle" font-weight="700">Storage</text>
+    <text x="990" y="286" text-anchor="middle">lifecycle</text>
+    <rect x="460" y="380" width="390" height="70" rx="14" fill="#f1f5f9" stroke="#475569" stroke-width="2"/>
+    <text x="655" y="410" text-anchor="middle" font-weight="700">Operations</text>
+    <text x="655" y="433" text-anchor="middle">CI/CD, SLOs, monitoring, incident alerts</text>
+  </g>
+  <g stroke="#334155" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <path d="M170 222 L225 222"/>
+    <path d="M400 200 L455 140"/>
+    <path d="M400 240 L455 263"/>
+    <path d="M630 263 L685 185"/>
+    <path d="M630 282 L685 300"/>
+    <path d="M850 185 L905 150"/>
+    <path d="M850 300 L905 270"/>
+    <path d="M545 305 L630 375"/>
+  </g>
+</svg>
